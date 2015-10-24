@@ -1,7 +1,7 @@
 # CODE BOOK for the tidy dataset and the merged dataset created for Reading and Cleaning Data Project 
-Script run_analysis outputs two datasets, merged_dataset.csv and tidy_dataset.csv. This code book is for both datasets.
+Script run_analysis outputs two datasets, merged_dataset.csv and tidy_dataset.csv (and tidy.dataset.txt). This code book is for both datasets.
 
-##tidy_dataset.csv [180 values for 89 columns] - The values are the mean feature values for each of the 180 activitylabel/subject combinations
+##tidy_dataset.csv (tidy_dataset.txt) [180 values for 89 columns] - The values are the mean feature values for each of the 180 activitylabel/subject combinations
 
 activitylabel - Values are labels for the six activities as listed below
 1 WALKING

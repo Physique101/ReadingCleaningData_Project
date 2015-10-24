@@ -31,4 +31,6 @@ merged_dataset.csv: Contains the merged features with corresponding association 
 
 tidy_dataset.csv: Contains the mean value for each mean/standard deviation feature broken down by activity/subject.
 
+###tidy_dataset.txt: Same content as tidy_dataset.csv but saved with write.table with row.names = FALSE
+
 See CodeBook.md for details about these datasets

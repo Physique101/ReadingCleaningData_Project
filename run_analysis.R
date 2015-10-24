@@ -107,3 +107,4 @@ tidySummary <- group_by(mergedDataset, activitylabel, subject, subjecttype) %>% 
 
 write.csv(mergedDataset, "merged_dataset.csv")
 write.csv(tidySummary, "tidy_dataset.csv")
+write.table(tidySummary, "tidy_dataset.txt", row.names = FALSE)
