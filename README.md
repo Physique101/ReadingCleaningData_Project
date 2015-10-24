@@ -1,7 +1,7 @@
-##ReadingCleaningData_Project
+#ReadingCleaningData_Project
 This is to host the solution to the Reading and Cleaning Data Project (Coursera - JHU)
 
-#Project Description 
+##Project Description 
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. 
 You will be required to submit: 
 1) a tidy data set as described below, 
@@ -24,7 +24,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 4.	Appropriately labels the data set with descriptive variable names. 
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-#Results
+##Results
 run_analysis.R: Script to merge and cleanup the data. The script produces two datasets described below.
-merged_dataset.csv: Contains the merged features with corresponding association to subject, actovity and TEST/TRAIN characteristics
-tidy_dataset.csv: Contains the mean value for each mean/standard deviation feature broken down by activity/subject
+
+merged_dataset.csv: Contains the merged features with corresponding association to subject, activity and TEST/TRAIN characteristics. Values are the original ones.
+
+tidy_dataset.csv: Contains the mean value for each mean/standard deviation feature broken down by activity/subject.
+
+See CodeBook.md for details about these datasets
